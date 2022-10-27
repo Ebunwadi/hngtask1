@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.json({
+    res.status(201).send({
         slackUsername: 'ebube', 
         backend: true, 
         age: 27, 
