@@ -11,7 +11,8 @@ app.get('/', (req, res) => {
         slackUsername: 'ebube', 
         backend: true, 
         age: 27, 
-        bio: 'i am new to coding, however i am convinced that my passion will keep me going'
+        bio: `i am Ebube, a chemical engineer from delta state, Nigeria.
+        i am new to coding, however i am convinced that my passion will keep me going.`
     })
 })
 
